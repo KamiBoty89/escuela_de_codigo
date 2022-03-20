@@ -71,3 +71,20 @@ var cal1;
      else alert("Tu promedio es " + prom + " por lo tanto estas reprobado" );
 
 5. Realizar un algoritmo y diagrama de flujo para un programa que solicite un número e indique si es par o impar.
+
+Algoritmo
+
+1. Inicio
+2. Declarar (num) float
+3. Mostrar ("Ingresa un numero ") float
+4. Asignar (num)
+5. SI (num % 2)==0, ENTONCES Mostrar ("El numero " + num + "es par")
+6. SI (num % 2) !=0, ENTONCES Mostrar ("El numero " + num + "es par") SI NO Mostrar ("El dato ingresado no es un numero")
+14. Fin
+
+Diagrama
+
+![image](https://user-images.githubusercontent.com/101414787/159142318-2beb96b8-3288-4df7-9eee-63f4b129adc1.png)
+
+Codigo
+
