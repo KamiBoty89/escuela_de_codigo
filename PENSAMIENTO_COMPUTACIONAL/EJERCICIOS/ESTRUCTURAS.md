@@ -17,6 +17,7 @@ DIAGRAMA
 ![image](https://user-images.githubusercontent.com/101414787/159208925-8db61538-8447-4fa5-9c59-e4ff56180445.png)
 
 CODIGO
+
 var num;
 num = prompt("Ingrese un número");
 num=parseFloat(num);
@@ -40,6 +41,7 @@ DIAGRAMA
 ![image](https://user-images.githubusercontent.com/101414787/159210447-e2875b51-6566-45dd-b0d2-be45604ba06b.png)
 
 CODIGO
+
 var letra;
 letra = prompt("Ingrese una letra");
 if (letra=='s') {
@@ -52,6 +54,7 @@ if (letra=='s') {
 * Un programa que pida una letra y detecte si es una vocal. 
 
 ALGORITMO
+
 1. Inicio
 2. Declarar (letra)
 3. Mostrar ("Ingresa una letra")
@@ -60,6 +63,7 @@ ALGORITMO
 6. Fin
 
 CODIGO
+
 var letra;
 letra = prompt("Ingrese una letra");
 switch(letra){
@@ -126,6 +130,7 @@ if (n1>n2)
 * De un programa que pida un número del 1 al 12 y diga el nombre del mes correspondiente.
 
 ALGORITMO
+
 1. Inicio
 2. Declarar (num)
 3. Mostrar ("Ingresa un numero del 1 al 12")
@@ -138,6 +143,7 @@ DIAGRAMA
 ![image](https://user-images.githubusercontent.com/101414787/159360751-31802766-c213-4e29-abff-7910e5031272.png)
 
 CODIGO
+
 var num;
 num = prompt("Ingrese un número del 1 al 12");
 num=parseInt(num);
@@ -175,6 +181,7 @@ switch(num){
 * De un programa que permita al usuario elegir un candidato por el cual votar. Las posibilidades son: candidato A por el partido rojo, candidato B por el partido verde, candidato C por el partido azul. Según el candidato elegido (A, B ó C) se le debe imprimir el mensaje “Usted ha votado por el partido [color que corresponda al candidato elegido]”. Si el usuario ingresa una opción que no corresponde a ninguno de los candidatos disponibles, indicar “Opción errónea”.
 
 ALGORITMO
+
 1. Inicio
 2. Declarar (opcion)
 3. Mostrar ("Por que candidato desea votar: A.- Partido Rojo, B.- Partido verde, C.- Partido Azul")
@@ -183,9 +190,11 @@ ALGORITMO
 7. Fin
 
 DIAGRAMA
+
 ![image](https://user-images.githubusercontent.com/101414787/159366093-3952d9e6-9b67-4fd0-8170-776c23396307.png)
 
 CODIGO
+
 var opcion;
 opcion = prompt("Por que candidato desea votar: A.- Partido Rojo, B.- Partido verde, C.- Partido Azul");
 switch(opcion){
@@ -200,3 +209,43 @@ switch(opcion){
 }
 
 * Para un programa que almacene la cadena de caracteres para una contraseña y email, pregunte al usuario por la contraseña y email e imprima por pantalla si la contraseña y el email introducidos por el usuario coincide con los guardadados en las variables.
+
+ALGORITMO
+
+1. Inicio
+2. Declarar (mail, cont, email, pasw)
+3. Mostrar ("Registra un email")string
+4. Asignar (mail)
+5. Mostrar ("Registra una contraseña")string
+6. Asignar (cont)
+7. Mostrar ("Ingresa tu correo")string
+8. Asignar (email)
+9. Mostrar ("Ingresa tu contraseña")string
+10. Asignar (pasw)
+11. Si (email=mail){ Entonces Si (pasw=cont){ ENTONCES MOSTRAR("Datos correctos")} SINO MOSTRAR ("Datos incorrectos")} SINO MOSTRAR ("Datos incorrectos")
+12. Fin
+
+DIAGRAMA
+
+![image](https://user-images.githubusercontent.com/101414787/159413710-8127dc47-66a4-48eb-bf12-140ee3123ff6.png)
+
+CODIGO
+
+var mail;
+var cont;
+var email;
+var pasw;
+mail = prompt("Registra un email")
+cont = prompt("Registra una contraseña")
+email = prompt("Ingresa tu correo")
+pasw = prompt("Ingresa tu contraseña")
+if(email==mail)
+{
+    if (pasw==cont)
+    { alert("Datos correctos")
+    }else alert("Datos incorrectos")
+}else alert("Datos incorrectos")
+    
+
+
+
