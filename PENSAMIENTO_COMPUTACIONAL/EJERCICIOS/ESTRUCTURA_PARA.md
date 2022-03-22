@@ -46,5 +46,18 @@ DIAGRAMA
 
 ![image](https://user-images.githubusercontent.com/101414787/159531935-c7561cf9-e8dd-425b-807b-ae40764fa7d4.png)
 
+CODIGO
 
+var contador;
+var n;
+var tabla;
+tabla=0;
+for(contador = 1;contador <= 10;contador++){
+    for(n = 1; n<=10; n++){
+        tabla=contador*n
+        document.write(contador + "*" + n + "=" + tabla + "<br>")
+    }
+    
+    document.write("<br>")
+}
 
