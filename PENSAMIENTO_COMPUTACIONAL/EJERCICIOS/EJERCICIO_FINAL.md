@@ -1,5 +1,7 @@
 Realiza en algoritmo, pseudocodigo y diagrama de flujo, un Juego simple que pide al usuario que adivine un numero en 10 intentos, que imprima si lo atina, y si no le indique si el número ingresado es mayo o menor al almacenado, así como el número de intemtos restantes.
 
+https://github.com/KamiBoty89/escuela_de_codigo/tree/main/PENSAMIENTO_COMPUTACIONAL/EJERCICIOS/Ejercicio_FIAL
+
 
 Ingresa al siguiente link para el resumen final
 
