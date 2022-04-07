@@ -5,7 +5,7 @@ Caso: Página informativa de la Escuela de Código PILARES
 * La página debe ser responsive para poder consultar desde el celular
 * La preferencia de colores sera el verde y el gris
  
- ## TOMA DE REQUERIMIENTOS 
+ ## FASE 1 TOMA DE REQUERIMIENTOS 
  Hacemos el llenado de los requerimientos en el siguiente documento --> [PLANTILLA](./1.-Reqierimientos.doc)
  
 (pueden usar la plantilla para futuros proyectos)
@@ -17,3 +17,9 @@ Utilizando una herramienta llamada Miro, crearemos nuestro público objetivo
 ![image](https://user-images.githubusercontent.com/91554777/161871996-34895938-93cc-47e9-83f5-f431c8652de6.png)
 
 Plantilla para púbico objetivo -- https://miro.com/es/plantillas/publico-objetivo/
+
+## FASE 2 DISEÑO
+### UI
+Usando la herramienta https://balsamiq.cloud/ realizamos nuestro wireframe --> [PLANTILLA](./3.-wireframe.pdf)
+
+https://balsamiq.cloud/s1uwxqf/pth4vs3/rE39C
